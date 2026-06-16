@@ -315,5 +315,616 @@
     "options": ["Decreases", "Increases", "Stays constant", "Becomes infinite"],
     "correct": "A",
     "solution": "Forward bias lowers the barrier and narrows the depletion region."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Some Basic Concepts", "topic": "Mole Concept",
+    "year": 2021, "difficulty": "easy", "type": "numerical",
+    "question": "The number of moles in $22\\,\\text{g}$ of CO$_2$ is ___ . (Molar mass $=44\\,\\text{g/mol}$)",
+    "answer": 0.5, "tol": 0.01,
+    "solution": "$n=\\dfrac{\\text{mass}}{\\text{molar mass}}=\\dfrac{22}{44}=0.5\\,\\text{mol}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Some Basic Concepts", "topic": "Empirical Formula",
+    "year": 2018, "difficulty": "medium", "type": "single",
+    "question": "A compound contains $40\\%$ carbon, $6.7\\%$ hydrogen and $53.3\\%$ oxygen by mass. Its empirical formula is:",
+    "options": ["$\\text{CH}_2\\text{O}$", "$\\text{C}_2\\text{H}_4\\text{O}$", "$\\text{CHO}$", "$\\text{C}_2\\text{H}_6\\text{O}$"],
+    "correct": "A",
+    "solution": "C: $40/12=3.33$; H: $6.7/1=6.7$; O: $53.3/16=3.33$. Ratio $\\approx1:2:1\\Rightarrow\\text{CH}_2\\text{O}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Atomic Structure", "topic": "Quantum Numbers",
+    "year": 2019, "difficulty": "medium", "type": "single",
+    "question": "The maximum number of electrons that can be accommodated in a subshell with $l=2$ is:",
+    "options": ["$10$", "$6$", "$2$", "$14$"],
+    "correct": "A",
+    "solution": "$l=2$ is the $d$ subshell with $5$ orbitals; max electrons $=2\\times5=10.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Atomic Structure", "topic": "Bohr Model",
+    "year": 2022, "difficulty": "medium", "type": "single",
+    "question": "The radius of the $n=2$ orbit of the hydrogen atom, given the Bohr radius $a_0$, is:",
+    "options": ["$4a_0$", "$2a_0$", "$a_0/2$", "$a_0/4$"],
+    "correct": "A",
+    "solution": "$r_n=n^2 a_0$; for $n=2$, $r=4a_0.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Periodic Classification", "topic": "Periodic Trends",
+    "year": 2016, "difficulty": "easy", "type": "single",
+    "question": "Across a period (left to right), the atomic radius generally:",
+    "options": ["Decreases", "Increases", "Stays constant", "First increases then decreases"],
+    "correct": "A",
+    "solution": "Increasing nuclear charge with the same shell pulls electrons in, so radius decreases across a period."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Periodic Classification", "topic": "Ionization Energy",
+    "year": 2023, "difficulty": "medium", "type": "single",
+    "question": "Which element has the highest first ionization energy?",
+    "options": ["Ne", "Na", "Cl", "F"],
+    "correct": "A",
+    "solution": "Noble gas Ne has a stable, full shell; among these it has the highest first ionization energy."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Chemical Bonding", "topic": "Hybridisation",
+    "year": 2018, "difficulty": "medium", "type": "single",
+    "question": "The hybridisation of the carbon atom in methane (CH$_4$) is:",
+    "options": ["$sp^3$", "$sp^2$", "$sp$", "$sp^3d$"],
+    "correct": "A",
+    "solution": "Four sigma bonds, no lone pairs $\\Rightarrow sp^3$ hybridisation (tetrahedral)."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Chemical Bonding", "topic": "VSEPR Geometry",
+    "year": 2021, "difficulty": "medium", "type": "single",
+    "question": "The shape of the ammonia molecule (NH$_3$) is:",
+    "options": ["Trigonal pyramidal", "Tetrahedral", "Trigonal planar", "Bent"],
+    "correct": "A",
+    "solution": "N has $sp^3$ hybridisation with one lone pair, giving a trigonal pyramidal shape."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Chemical Thermodynamics", "topic": "Enthalpy",
+    "year": 2017, "difficulty": "medium", "type": "single",
+    "question": "For an exothermic reaction, the sign of $\\Delta H$ is:",
+    "options": ["Negative", "Positive", "Zero", "Cannot be determined"],
+    "correct": "A",
+    "solution": "Exothermic reactions release heat, so $\\Delta H<0.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Chemical Thermodynamics", "topic": "Spontaneity",
+    "year": 2022, "difficulty": "hard", "type": "single",
+    "question": "A reaction is spontaneous at all temperatures when:",
+    "options": ["$\\Delta H<0,\\ \\Delta S>0$", "$\\Delta H>0,\\ \\Delta S<0$", "$\\Delta H<0,\\ \\Delta S<0$", "$\\Delta H>0,\\ \\Delta S>0$"],
+    "correct": "A",
+    "solution": "$\\Delta G=\\Delta H-T\\Delta S$. If $\\Delta H<0$ and $\\Delta S>0$, $\\Delta G<0$ at all $T$."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Equilibrium", "topic": "pH",
+    "year": 2019, "difficulty": "easy", "type": "numerical",
+    "question": "The pH of a $0.001\\,\\text{M}$ HCl solution is ___ .",
+    "answer": 3, "tol": 0,
+    "solution": "$[\\text{H}^+]=10^{-3}\\,\\text{M}$, so pH $=-\\log(10^{-3})=3.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Equilibrium", "topic": "Le Chatelier's Principle",
+    "year": 2020, "difficulty": "medium", "type": "single",
+    "question": "For $\\text{N}_2+3\\text{H}_2\\rightleftharpoons 2\\text{NH}_3$ (exothermic), increasing pressure shifts the equilibrium:",
+    "options": ["Toward NH$_3$", "Toward reactants", "No change", "Toward H$_2$"],
+    "correct": "A",
+    "solution": "Higher pressure favours fewer gas moles; the product side ($2$ mol) has fewer than the reactant side ($4$ mol), so it shifts toward NH$_3$."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Redox Reactions", "topic": "Oxidation Number",
+    "year": 2016, "difficulty": "medium", "type": "single",
+    "question": "The oxidation state of manganese in KMnO$_4$ is:",
+    "options": ["$+7$", "$+4$", "$+6$", "$+2$"],
+    "correct": "A",
+    "solution": "K $=+1$, O $=-2\\times4=-8$. So Mn $=+7$ (since $1+x-8=0$)."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Redox Reactions", "topic": "Balancing",
+    "year": 2023, "difficulty": "easy", "type": "single",
+    "question": "In a redox reaction, the species that loses electrons is:",
+    "options": ["Oxidised", "Reduced", "The oxidising agent", "Unchanged"],
+    "correct": "A",
+    "solution": "Loss of electrons is oxidation; that species is oxidised (and acts as the reducing agent)."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Solutions", "topic": "Colligative Properties",
+    "year": 2018, "difficulty": "medium", "type": "single",
+    "question": "Which is a colligative property?",
+    "options": ["Depression in freezing point", "Viscosity", "Surface tension", "Refractive index"],
+    "correct": "A",
+    "solution": "Colligative properties depend on the number of solute particles; depression in freezing point is one."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Solutions", "topic": "Molarity",
+    "year": 2021, "difficulty": "easy", "type": "numerical",
+    "question": "The molarity of a solution containing $0.5\\,\\text{mol}$ of solute in $2\\,\\text{L}$ of solution is ___ M.",
+    "answer": 0.25, "tol": 0.01,
+    "solution": "$M=\\dfrac{\\text{moles}}{\\text{volume (L)}}=\\dfrac{0.5}{2}=0.25\\,\\text{M}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Electrochemistry", "topic": "Nernst Equation",
+    "year": 2019, "difficulty": "medium", "type": "single",
+    "question": "The standard EMF of a cell is related to $\\Delta G^\\circ$ by:",
+    "options": ["$\\Delta G^\\circ=-nFE^\\circ$", "$\\Delta G^\\circ=nFE^\\circ$", "$\\Delta G^\\circ=-E^\\circ/nF$", "$\\Delta G^\\circ=nF/E^\\circ$"],
+    "correct": "A",
+    "solution": "By definition $\\Delta G^\\circ=-nFE^\\circ$ (negative for a spontaneous cell with $E^\\circ>0$)."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Electrochemistry", "topic": "Conductance",
+    "year": 2022, "difficulty": "medium", "type": "single",
+    "question": "On dilution, the molar conductivity of a strong electrolyte:",
+    "options": ["Increases", "Decreases", "Remains constant", "Becomes zero"],
+    "correct": "A",
+    "solution": "Molar conductivity increases on dilution as inter-ionic interactions weaken (more complete dissociation/mobility)."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Chemical Kinetics", "topic": "Order of Reaction",
+    "year": 2017, "difficulty": "medium", "type": "single",
+    "question": "The half-life of a first-order reaction is related to the rate constant $k$ by:",
+    "options": ["$t_{1/2}=\\dfrac{0.693}{k}$", "$t_{1/2}=\\dfrac{1}{k[A_0]}$", "$t_{1/2}=\\dfrac{k}{0.693}$", "$t_{1/2}=k[A_0]$"],
+    "correct": "A",
+    "solution": "For first order, $t_{1/2}=\\dfrac{\\ln 2}{k}=\\dfrac{0.693}{k}$ — independent of initial concentration."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Chemical Kinetics", "topic": "Arrhenius Equation",
+    "year": 2023, "difficulty": "medium", "type": "single",
+    "question": "According to the Arrhenius equation, raising the temperature increases the rate constant mainly because:",
+    "options": ["More molecules exceed the activation energy", "Activation energy decreases", "The order changes", "Concentration increases"],
+    "correct": "A",
+    "solution": "$k=Ae^{-E_a/RT}$; higher $T$ means a larger fraction of molecules have energy $\\ge E_a$, so $k$ rises."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Coordination Compounds", "topic": "Oxidation State & Ligands",
+    "year": 2018, "difficulty": "medium", "type": "single",
+    "question": "The oxidation state of iron in $[\\text{Fe}(\\text{CN})_6]^{4-}$ is:",
+    "options": ["$+2$", "$+3$", "$+4$", "$0$"],
+    "correct": "A",
+    "solution": "Each CN$^-$ is $-1$ ($6\\times-1=-6$); overall charge $-4$, so Fe $=+2$."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Coordination Compounds", "topic": "Coordination Number",
+    "year": 2021, "difficulty": "easy", "type": "single",
+    "question": "The coordination number of the central metal in $[\\text{Co}(\\text{NH}_3)_6]^{3+}$ is:",
+    "options": ["$6$", "$3$", "$4$", "$2$"],
+    "correct": "A",
+    "solution": "Six NH$_3$ ligands each donate one pair, giving a coordination number of $6.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "p-Block Elements", "topic": "Group Trends",
+    "year": 2016, "difficulty": "medium", "type": "single",
+    "question": "Which of the following is the most acidic oxide?",
+    "options": ["$\\text{CO}_2$", "$\\text{Na}_2\\text{O}$", "$\\text{MgO}$", "$\\text{CaO}$"],
+    "correct": "A",
+    "solution": "Non-metal oxides like CO$_2$ are acidic; the others are basic metal oxides."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "p-Block Elements", "topic": "Allotropes & Properties",
+    "year": 2022, "difficulty": "easy", "type": "single",
+    "question": "The most electronegative element is:",
+    "options": ["Fluorine", "Oxygen", "Chlorine", "Nitrogen"],
+    "correct": "A",
+    "solution": "Fluorine is the most electronegative element (Pauling scale $\\approx4.0$)."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "d- & f-Block Elements", "topic": "Transition Metal Properties",
+    "year": 2019, "difficulty": "medium", "type": "single",
+    "question": "Transition metals show variable oxidation states mainly due to:",
+    "options": ["Participation of (n-1)d and ns electrons", "Large atomic size", "Low ionization energy only", "Absence of d electrons"],
+    "correct": "A",
+    "solution": "Both $(n-1)d$ and $ns$ electrons have comparable energies and can participate in bonding, giving variable oxidation states."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "d- & f-Block Elements", "topic": "Colour & Magnetism",
+    "year": 2023, "difficulty": "hard", "type": "single",
+    "question": "Which ion is colourless in aqueous solution?",
+    "options": ["$\\text{Zn}^{2+}$", "$\\text{Cu}^{2+}$", "$\\text{Fe}^{2+}$", "$\\text{Ni}^{2+}$"],
+    "correct": "A",
+    "solution": "Zn$^{2+}$ has a fully filled $d^{10}$ configuration; no d–d transition, so it is colourless."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "General Organic Chemistry", "topic": "Inductive & Resonance Effects",
+    "year": 2018, "difficulty": "medium", "type": "single",
+    "question": "Which is the most stable carbocation?",
+    "options": ["Tertiary ($3^\\circ$)", "Secondary ($2^\\circ$)", "Primary ($1^\\circ$)", "Methyl"],
+    "correct": "A",
+    "solution": "More alkyl groups donate electron density (hyperconjugation + inductive), stabilising the positive charge; $3^\\circ$ is most stable."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "General Organic Chemistry", "topic": "Isomerism",
+    "year": 2021, "difficulty": "easy", "type": "numerical",
+    "question": "The number of structural isomers of C$_4$H$_{10}$ is ___ .",
+    "answer": 2, "tol": 0,
+    "solution": "Butane and isobutane (2-methylpropane) — $2$ structural isomers."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Hydrocarbons", "topic": "Alkenes & Alkynes",
+    "year": 2017, "difficulty": "medium", "type": "single",
+    "question": "Markovnikov's rule predicts that in the addition of HBr to propene, the H adds to:",
+    "options": ["The carbon with more hydrogens", "The carbon with fewer hydrogens", "Either carbon equally", "The terminal carbon only via peroxide"],
+    "correct": "A",
+    "solution": "Markovnikov: H adds to the carbon already bearing more hydrogens, giving the more stable carbocation; Br to the other."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Hydrocarbons", "topic": "Aromaticity",
+    "year": 2022, "difficulty": "medium", "type": "single",
+    "question": "Benzene undergoes which type of reaction most readily?",
+    "options": ["Electrophilic substitution", "Nucleophilic substitution", "Addition", "Elimination"],
+    "correct": "A",
+    "solution": "Benzene's aromatic stability favours electrophilic substitution, preserving the ring."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Haloalkanes & Haloarenes", "topic": "SN1/SN2 Mechanisms",
+    "year": 2019, "difficulty": "hard", "type": "single",
+    "question": "An SN2 reaction proceeds fastest with which substrate?",
+    "options": ["Primary halide", "Tertiary halide", "Neopentyl halide", "Aryl halide"],
+    "correct": "A",
+    "solution": "SN2 requires backside attack; least steric hindrance at a primary carbon makes it fastest."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Haloalkanes & Haloarenes", "topic": "Reactivity",
+    "year": 2020, "difficulty": "medium", "type": "single",
+    "question": "Aryl halides are less reactive than alkyl halides toward nucleophilic substitution because:",
+    "options": ["Partial double-bond character of C–X", "Larger size of aryl group", "Higher boiling point", "Presence of pi bonds only"],
+    "correct": "A",
+    "solution": "Resonance gives the C–X bond partial double-bond character, strengthening it and reducing reactivity."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Alcohols, Phenols & Ethers", "topic": "Acidity",
+    "year": 2018, "difficulty": "medium", "type": "single",
+    "question": "Phenol is more acidic than ethanol because:",
+    "options": ["The phenoxide ion is resonance-stabilised", "Phenol has more carbons", "Ethanol has a pi bond", "Phenol is aromatic only"],
+    "correct": "A",
+    "solution": "The phenoxide ion delocalises its negative charge over the ring, stabilising it; ethoxide cannot, so phenol is more acidic."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Alcohols, Phenols & Ethers", "topic": "Reactions",
+    "year": 2023, "difficulty": "easy", "type": "single",
+    "question": "Oxidation of a primary alcohol with a strong oxidising agent ultimately gives:",
+    "options": ["Carboxylic acid", "Ketone", "Ester", "Ether"],
+    "correct": "A",
+    "solution": "Primary alcohol → aldehyde → carboxylic acid on strong oxidation."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Aldehydes, Ketones & Acids", "topic": "Nucleophilic Addition",
+    "year": 2019, "difficulty": "medium", "type": "single",
+    "question": "Which compound gives a positive Tollens' (silver mirror) test?",
+    "options": ["Acetaldehyde", "Acetone", "Benzene", "Ethanol"],
+    "correct": "A",
+    "solution": "Aldehydes reduce Tollens' reagent giving a silver mirror; acetone (a ketone) does not."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Aldehydes, Ketones & Acids", "topic": "Acidity of Acids",
+    "year": 2021, "difficulty": "medium", "type": "single",
+    "question": "Which is the strongest acid?",
+    "options": ["Trichloroacetic acid", "Acetic acid", "Chloroacetic acid", "Formic acid"],
+    "correct": "A",
+    "solution": "Three electron-withdrawing Cl atoms strongly stabilise the carboxylate, making trichloroacetic acid the strongest here."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Amines", "topic": "Basicity",
+    "year": 2017, "difficulty": "hard", "type": "single",
+    "question": "In the gas phase, the order of basicity of methylamines is governed by the inductive effect. In aqueous solution, the order is:",
+    "options": ["$(\\text{CH}_3)_2\\text{NH} > \\text{CH}_3\\text{NH}_2 > (\\text{CH}_3)_3\\text{N}$", "$(\\text{CH}_3)_3\\text{N} > (\\text{CH}_3)_2\\text{NH} > \\text{CH}_3\\text{NH}_2$", "$\\text{CH}_3\\text{NH}_2 > (\\text{CH}_3)_2\\text{NH} > (\\text{CH}_3)_3\\text{N}$", "All equal"],
+    "correct": "A",
+    "solution": "In water, basicity balances inductive effect and solvation of the cation; for methylamines the observed order is $2^\\circ>1^\\circ>3^\\circ.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Amines", "topic": "Identification",
+    "year": 2022, "difficulty": "medium", "type": "single",
+    "question": "The carbylamine reaction is a test for:",
+    "options": ["Primary amines", "Secondary amines", "Tertiary amines", "Amides"],
+    "correct": "A",
+    "solution": "Only primary amines give the foul-smelling isocyanide (carbylamine) with CHCl$_3$ and KOH."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Biomolecules", "topic": "Carbohydrates",
+    "year": 2020, "difficulty": "easy", "type": "single",
+    "question": "Glucose and fructose are related as:",
+    "options": ["Functional isomers", "Enantiomers", "Same compound", "Geometrical isomers"],
+    "correct": "A",
+    "solution": "Glucose (aldohexose) and fructose (ketohexose) share C$_6$H$_{12}$O$_6$ but differ in functional group — functional isomers."
+  },
+  {
+    "exam": "JEE Main", "subject": "chemistry", "chapter": "Biomolecules", "topic": "Proteins",
+    "year": 2023, "difficulty": "easy", "type": "single",
+    "question": "The bond linking two amino acids in a protein is a:",
+    "options": ["Peptide bond", "Glycosidic bond", "Ester bond", "Hydrogen bond"],
+    "correct": "A",
+    "solution": "Amino acids join via peptide (amide) bonds between –COOH and –NH$_2$ groups."
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Sets, Relations & Functions", "topic": "Functions",
+    "year": 2021, "difficulty": "easy", "type": "single",
+    "question": "If $f(x)=2x+3$, then $f^{-1}(x)$ is:",
+    "options": ["$\\dfrac{x-3}{2}$", "$\\dfrac{x+3}{2}$", "$2x-3$", "$\\dfrac{1}{2x+3}$"],
+    "correct": "A",
+    "solution": "Let $y=2x+3\\Rightarrow x=\\dfrac{y-3}{2}$. So $f^{-1}(x)=\\dfrac{x-3}{2}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Sets, Relations & Functions", "topic": "Sets",
+    "year": 2018, "difficulty": "medium", "type": "numerical",
+    "question": "If $|A|=3$ and $|B|=4$, the number of elements in $A\\times B$ is ___ .",
+    "answer": 12, "tol": 0,
+    "solution": "$|A\\times B|=|A|\\cdot|B|=3\\times4=12.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Complex Numbers", "topic": "Modulus & Argument",
+    "year": 2019, "difficulty": "medium", "type": "single",
+    "question": "The modulus of $z=3+4i$ is:",
+    "options": ["$5$", "$7$", "$\\sqrt7$", "$25$"],
+    "correct": "A",
+    "solution": "$|z|=\\sqrt{3^2+4^2}=\\sqrt{25}=5.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Complex Numbers", "topic": "Powers of i",
+    "year": 2022, "difficulty": "easy", "type": "single",
+    "question": "The value of $i^{2026}$ is:",
+    "options": ["$-1$", "$1$", "$i$", "$-i$"],
+    "correct": "A",
+    "solution": "$i^{2026}=i^{4\\cdot506+2}=i^2=-1.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Quadratic Equations", "topic": "Roots",
+    "year": 2016, "difficulty": "medium", "type": "single",
+    "question": "If the roots of $x^2-5x+6=0$ are $\\alpha,\\beta$, then $\\alpha+\\beta$ equals:",
+    "options": ["$5$", "$6$", "$-5$", "$1$"],
+    "correct": "A",
+    "solution": "Sum of roots $=-\\dfrac{b}{a}=-\\dfrac{-5}{1}=5.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Quadratic Equations", "topic": "Nature of Roots",
+    "year": 2023, "difficulty": "medium", "type": "single",
+    "question": "The equation $x^2+x+1=0$ has:",
+    "options": ["Complex (non-real) roots", "Two equal real roots", "Two distinct real roots", "One real root"],
+    "correct": "A",
+    "solution": "Discriminant $=1-4=-3<0$, so the roots are complex conjugates."
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Sequences & Series", "topic": "AP",
+    "year": 2017, "difficulty": "easy", "type": "numerical",
+    "question": "The sum of the first $10$ natural numbers is ___ .",
+    "answer": 55, "tol": 0,
+    "solution": "$S=\\dfrac{n(n+1)}{2}=\\dfrac{10\\cdot11}{2}=55.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Sequences & Series", "topic": "GP",
+    "year": 2020, "difficulty": "medium", "type": "single",
+    "question": "The sum to infinity of the GP $1+\\tfrac12+\\tfrac14+\\cdots$ is:",
+    "options": ["$2$", "$1$", "$\\infty$", "$\\tfrac32$"],
+    "correct": "A",
+    "solution": "$S_\\infty=\\dfrac{a}{1-r}=\\dfrac{1}{1-1/2}=2.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Permutations & Combinations", "topic": "Combinations",
+    "year": 2018, "difficulty": "medium", "type": "numerical",
+    "question": "The number of ways to choose $2$ items from $5$ distinct items is ___ .",
+    "answer": 10, "tol": 0,
+    "solution": "$\\binom{5}{2}=\\dfrac{5!}{2!\\,3!}=10.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Permutations & Combinations", "topic": "Permutations",
+    "year": 2021, "difficulty": "easy", "type": "numerical",
+    "question": "The number of ways to arrange the letters of the word 'CAT' is ___ .",
+    "answer": 6, "tol": 0,
+    "solution": "$3!=6$ arrangements (all letters distinct)."
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Binomial Theorem", "topic": "General Term",
+    "year": 2019, "difficulty": "medium", "type": "numerical",
+    "question": "The number of terms in the expansion of $(x+y)^{10}$ is ___ .",
+    "answer": 11, "tol": 0,
+    "solution": "$(x+y)^n$ has $n+1$ terms; here $10+1=11.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Binomial Theorem", "topic": "Coefficients",
+    "year": 2022, "difficulty": "medium", "type": "single",
+    "question": "The coefficient of $x^2$ in $(1+x)^4$ is:",
+    "options": ["$6$", "$4$", "$12$", "$1$"],
+    "correct": "A",
+    "solution": "$\\binom{4}{2}=6.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Matrices & Determinants", "topic": "Determinant",
+    "year": 2016, "difficulty": "easy", "type": "numerical",
+    "question": "The determinant of $\\begin{pmatrix}2&3\\\\1&4\\end{pmatrix}$ is ___ .",
+    "answer": 5, "tol": 0,
+    "solution": "$\\det=2\\cdot4-3\\cdot1=8-3=5.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Matrices & Determinants", "topic": "Matrix Properties",
+    "year": 2023, "difficulty": "medium", "type": "single",
+    "question": "If $A$ is a $3\\times3$ matrix with $\\det(A)=2$, then $\\det(2A)$ is:",
+    "options": ["$16$", "$4$", "$8$", "$2$"],
+    "correct": "A",
+    "solution": "$\\det(kA)=k^n\\det(A)=2^3\\cdot2=16$ for $n=3.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Trigonometry", "topic": "Identities",
+    "year": 2017, "difficulty": "easy", "type": "single",
+    "question": "The value of $\\sin^2 30^\\circ+\\cos^2 30^\\circ$ is:",
+    "options": ["$1$", "$0$", "$\\tfrac12$", "$\\tfrac{\\sqrt3}{2}$"],
+    "correct": "A",
+    "solution": "$\\sin^2\\theta+\\cos^2\\theta=1$ for all $\\theta.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Trigonometry", "topic": "Values",
+    "year": 2020, "difficulty": "medium", "type": "single",
+    "question": "The value of $\\tan 45^\\circ+\\cot 45^\\circ$ is:",
+    "options": ["$2$", "$1$", "$0$", "$\\sqrt2$"],
+    "correct": "A",
+    "solution": "$\\tan45^\\circ=1,\\ \\cot45^\\circ=1$; sum $=2.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Straight Lines", "topic": "Slope",
+    "year": 2018, "difficulty": "easy", "type": "single",
+    "question": "The slope of the line $3x+4y=12$ is:",
+    "options": ["$-\\tfrac34$", "$\\tfrac34$", "$\\tfrac43$", "$-\\tfrac43$"],
+    "correct": "A",
+    "solution": "Rewrite: $y=-\\tfrac34 x+3$; slope $=-\\tfrac34.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Straight Lines", "topic": "Distance",
+    "year": 2021, "difficulty": "medium", "type": "single",
+    "question": "The distance between the points $(0,0)$ and $(3,4)$ is:",
+    "options": ["$5$", "$7$", "$\\sqrt7$", "$1$"],
+    "correct": "A",
+    "solution": "$d=\\sqrt{3^2+4^2}=5.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Circles", "topic": "Equation of a Circle",
+    "year": 2019, "difficulty": "easy", "type": "single",
+    "question": "The radius of the circle $x^2+y^2=49$ is:",
+    "options": ["$7$", "$49$", "$\\sqrt7$", "$14$"],
+    "correct": "A",
+    "solution": "$x^2+y^2=r^2$ with $r^2=49\\Rightarrow r=7.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Circles", "topic": "Centre & Radius",
+    "year": 2022, "difficulty": "medium", "type": "single",
+    "question": "The centre of the circle $x^2+y^2-4x-6y+9=0$ is:",
+    "options": ["$(2,3)$", "$(-2,-3)$", "$(4,6)$", "$(-4,-6)$"],
+    "correct": "A",
+    "solution": "Centre $=(-g,-f)=(2,3)$ from $x^2+y^2+2gx+2fy+c=0$ with $2g=-4,\\ 2f=-6.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Conic Sections", "topic": "Parabola",
+    "year": 2016, "difficulty": "medium", "type": "single",
+    "question": "The focus of the parabola $y^2=8x$ is:",
+    "options": ["$(2,0)$", "$(0,2)$", "$(4,0)$", "$(8,0)$"],
+    "correct": "A",
+    "solution": "$y^2=4ax$ with $4a=8\\Rightarrow a=2$; focus $=(a,0)=(2,0).$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Conic Sections", "topic": "Ellipse",
+    "year": 2023, "difficulty": "medium", "type": "single",
+    "question": "The eccentricity of the ellipse $\\dfrac{x^2}{25}+\\dfrac{y^2}{9}=1$ is:",
+    "options": ["$\\tfrac45$", "$\\tfrac35$", "$\\tfrac34$", "$\\tfrac15$"],
+    "correct": "A",
+    "solution": "$a^2=25,\\ b^2=9$; $e=\\sqrt{1-\\dfrac{b^2}{a^2}}=\\sqrt{1-\\dfrac{9}{25}}=\\dfrac45.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Limits, Continuity & Differentiability", "topic": "Standard Limits",
+    "year": 2017, "difficulty": "medium", "type": "single",
+    "question": "$\\displaystyle\\lim_{x\\to0}\\frac{\\sin x}{x}$ equals:",
+    "options": ["$1$", "$0$", "$\\infty$", "Does not exist"],
+    "correct": "A",
+    "solution": "A standard limit: $\\lim_{x\\to0}\\dfrac{\\sin x}{x}=1.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Limits, Continuity & Differentiability", "topic": "Derivatives",
+    "year": 2020, "difficulty": "easy", "type": "single",
+    "question": "The derivative of $x^3$ with respect to $x$ is:",
+    "options": ["$3x^2$", "$x^2$", "$3x$", "$\\tfrac{x^4}{4}$"],
+    "correct": "A",
+    "solution": "$\\dfrac{d}{dx}x^n=nx^{n-1}\\Rightarrow 3x^2.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Application of Derivatives", "topic": "Maxima & Minima",
+    "year": 2018, "difficulty": "medium", "type": "single",
+    "question": "The function $f(x)=x^2-4x+7$ has a minimum at $x=$:",
+    "options": ["$2$", "$-2$", "$4$", "$0$"],
+    "correct": "A",
+    "solution": "$f'(x)=2x-4=0\\Rightarrow x=2$; $f''>0$ confirms a minimum."
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Application of Derivatives", "topic": "Rate of Change",
+    "year": 2021, "difficulty": "medium", "type": "single",
+    "question": "If the side of a square increases at $2\\,\\text{cm/s}$, the rate of increase of its area when the side is $5\\,\\text{cm}$ is:",
+    "options": ["$20\\,\\text{cm}^2/\\text{s}$", "$10\\,\\text{cm}^2/\\text{s}$", "$25\\,\\text{cm}^2/\\text{s}$", "$4\\,\\text{cm}^2/\\text{s}$"],
+    "correct": "A",
+    "solution": "$A=x^2\\Rightarrow\\dfrac{dA}{dt}=2x\\dfrac{dx}{dt}=2(5)(2)=20\\,\\text{cm}^2/\\text{s}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Indefinite Integration", "topic": "Basic Integrals",
+    "year": 2019, "difficulty": "easy", "type": "single",
+    "question": "$\\displaystyle\\int x\\,dx$ equals:",
+    "options": ["$\\dfrac{x^2}{2}+C$", "$x^2+C$", "$\\dfrac{x^2}{2}$", "$1+C$"],
+    "correct": "A",
+    "solution": "$\\int x^n dx=\\dfrac{x^{n+1}}{n+1}+C\\Rightarrow\\dfrac{x^2}{2}+C.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Indefinite Integration", "topic": "Standard Forms",
+    "year": 2022, "difficulty": "medium", "type": "single",
+    "question": "$\\displaystyle\\int \\frac{1}{x}\\,dx$ equals:",
+    "options": ["$\\ln|x|+C$", "$-\\dfrac{1}{x^2}+C$", "$x\\ln x+C$", "$\\dfrac{1}{x^2}+C$"],
+    "correct": "A",
+    "solution": "$\\int\\dfrac{1}{x}dx=\\ln|x|+C.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Definite Integration & Area", "topic": "Evaluation",
+    "year": 2016, "difficulty": "medium", "type": "numerical",
+    "question": "The value of $\\displaystyle\\int_0^2 x\\,dx$ is ___ .",
+    "answer": 2, "tol": 0,
+    "solution": "$\\int_0^2 x\\,dx=\\left[\\dfrac{x^2}{2}\\right]_0^2=\\dfrac{4}{2}=2.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Definite Integration & Area", "topic": "Area Under Curve",
+    "year": 2023, "difficulty": "medium", "type": "numerical",
+    "question": "The area bounded by $y=x$, the x-axis, from $x=0$ to $x=4$ is ___ square units.",
+    "answer": 8, "tol": 0,
+    "solution": "Area $=\\int_0^4 x\\,dx=\\left[\\dfrac{x^2}{2}\\right]_0^4=8.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Differential Equations", "topic": "Order & Degree",
+    "year": 2018, "difficulty": "medium", "type": "single",
+    "question": "The order of the differential equation $\\dfrac{d^2y}{dx^2}+3\\dfrac{dy}{dx}+2y=0$ is:",
+    "options": ["$2$", "$1$", "$3$", "$0$"],
+    "correct": "A",
+    "solution": "The order is the highest derivative present; here it is $\\dfrac{d^2y}{dx^2}$, so order $=2.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Differential Equations", "topic": "Variable Separable",
+    "year": 2021, "difficulty": "medium", "type": "single",
+    "question": "The general solution of $\\dfrac{dy}{dx}=y$ is:",
+    "options": ["$y=Ce^{x}$", "$y=Cx$", "$y=C+x$", "$y=Ce^{-x}$"],
+    "correct": "A",
+    "solution": "Separating: $\\dfrac{dy}{y}=dx\\Rightarrow\\ln|y|=x+c\\Rightarrow y=Ce^{x}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Vector & 3D Geometry", "topic": "Dot Product",
+    "year": 2019, "difficulty": "medium", "type": "single",
+    "question": "If $\\vec a=\\hat i+\\hat j$ and $\\vec b=\\hat i-\\hat j$, then $\\vec a\\cdot\\vec b$ equals:",
+    "options": ["$0$", "$2$", "$1$", "$-2$"],
+    "correct": "A",
+    "solution": "$\\vec a\\cdot\\vec b=(1)(1)+(1)(-1)=0$ (the vectors are perpendicular)."
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Vector & 3D Geometry", "topic": "Magnitude",
+    "year": 2022, "difficulty": "easy", "type": "single",
+    "question": "The magnitude of the vector $\\vec a=2\\hat i+3\\hat j+6\\hat k$ is:",
+    "options": ["$7$", "$11$", "$\\sqrt{11}$", "$36$"],
+    "correct": "A",
+    "solution": "$|\\vec a|=\\sqrt{2^2+3^2+6^2}=\\sqrt{49}=7.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Probability", "topic": "Basic Probability",
+    "year": 2017, "difficulty": "easy", "type": "single",
+    "question": "The probability of getting a head when a fair coin is tossed once is:",
+    "options": ["$\\tfrac12$", "$1$", "$\\tfrac14$", "$0$"],
+    "correct": "A",
+    "solution": "One favourable outcome out of two equally likely: $\\dfrac12.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Probability", "topic": "Dice",
+    "year": 2020, "difficulty": "medium", "type": "single",
+    "question": "The probability of getting a sum of $7$ when two fair dice are rolled is:",
+    "options": ["$\\tfrac16$", "$\\tfrac18$", "$\\tfrac{1}{12}$", "$\\tfrac{5}{36}$"],
+    "correct": "A",
+    "solution": "Favourable outcomes for sum $7$: $6$ out of $36$, so $\\dfrac{6}{36}=\\dfrac16.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Statistics", "topic": "Mean",
+    "year": 2018, "difficulty": "easy", "type": "numerical",
+    "question": "The mean of the numbers $2, 4, 6, 8, 10$ is ___ .",
+    "answer": 6, "tol": 0,
+    "solution": "Mean $=\\dfrac{2+4+6+8+10}{5}=\\dfrac{30}{5}=6.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "maths", "chapter": "Statistics", "topic": "Variance",
+    "year": 2023, "difficulty": "medium", "type": "single",
+    "question": "If each observation in a data set is increased by $5$, the variance:",
+    "options": ["Remains unchanged", "Increases by $5$", "Increases by $25$", "Doubles"],
+    "correct": "A",
+    "solution": "Variance measures spread about the mean; adding a constant shifts all values and the mean equally, so variance is unchanged."
   }
 ]
