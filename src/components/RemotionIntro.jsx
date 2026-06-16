@@ -19,6 +19,7 @@ export default function RemotionIntro() {
         autoPlay
         loop
         controls={false}
+        numberOfSharedAudioTags={0}
       />
     </div>
   );

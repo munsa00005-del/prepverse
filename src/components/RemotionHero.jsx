@@ -13,19 +13,33 @@ export default function RemotionHero() {
   useEffect(() => {
     const player = ref.current;
     if (!player) return;
+    let raf;
+    let tries = 0;
 
     const start = () => {
       try {
         if (!player.isPlaying()) player.play();
       } catch {
-        /* play() may reject before the player is ready — the listeners retry */
+        /* play() may no-op before the player is ready — retried below */
       }
     };
 
-    start();
+    // Retry for a short window: play() can no-op before the Player finishes
+    // mounting. With numberOfSharedAudioTags={0} there is no audio element,
+    // so the browser autoplay policy never blocks it — this loop just covers
+    // the brief not-ready-yet gap after mount.
+    const kick = () => {
+      start();
+      tries += 1;
+      if (tries < 30 && !player.isPlaying()) raf = requestAnimationFrame(kick);
+    };
+    kick();
+
+    // Fallback for the strictest policies: start on the first interaction.
     window.addEventListener("pointerdown", start, { once: true });
     window.addEventListener("keydown", start, { once: true });
     return () => {
+      cancelAnimationFrame(raf);
       window.removeEventListener("pointerdown", start);
       window.removeEventListener("keydown", start);
     };
@@ -43,6 +57,7 @@ export default function RemotionHero() {
       autoPlay
       loop
       controls={false}
+      numberOfSharedAudioTags={0}
     />
   );
 }

@@ -32,16 +32,37 @@ export default function InViewRemotion() {
 function PlayerInner() {
   const ref = useRef(null);
 
-  // Same autoplay-policy guard as the hero backdrop: nudge the Player to
-  // actually start once it has mounted into view.
+  // Same autoplay handling as the hero backdrop: retry play() briefly after
+  // mount (it can no-op before the Player is ready) and fall back to the
+  // first user interaction. numberOfSharedAudioTags={0} removes the audio
+  // element so the browser autoplay policy never freezes it on frame 0.
   useEffect(() => {
     const player = ref.current;
     if (!player) return;
-    try {
-      if (!player.isPlaying()) player.play();
-    } catch {
-      /* ignore — autoPlay will still attempt to start it */
-    }
+    let raf;
+    let tries = 0;
+
+    const start = () => {
+      try {
+        if (!player.isPlaying()) player.play();
+      } catch {
+        /* retried below */
+      }
+    };
+    const kick = () => {
+      start();
+      tries += 1;
+      if (tries < 30 && !player.isPlaying()) raf = requestAnimationFrame(kick);
+    };
+    kick();
+
+    window.addEventListener("pointerdown", start, { once: true });
+    window.addEventListener("keydown", start, { once: true });
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener("pointerdown", start);
+      window.removeEventListener("keydown", start);
+    };
   }, []);
 
   return (
@@ -56,6 +77,7 @@ function PlayerInner() {
       autoPlay
       loop
       controls={false}
+      numberOfSharedAudioTags={0}
     />
   );
 }
