@@ -1,0 +1,319 @@
+[
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Units & Measurements", "topic": "Dimensional Analysis",
+    "year": 2021, "difficulty": "easy", "type": "single",
+    "question": "The dimensional formula of the coefficient of viscosity $\\eta$ is:",
+    "options": ["$[ML^{-1}T^{-1}]$", "$[MLT^{-1}]$", "$[ML^{-1}T^{-2}]$", "$[ML^{2}T^{-1}]$"],
+    "correct": "A",
+    "solution": "From $F=\\eta A\\dfrac{dv}{dx}$, $\\eta=\\dfrac{F}{A\\,(dv/dx)}=\\dfrac{[MLT^{-2}]}{[L^2]\\,[T^{-1}]}=[ML^{-1}T^{-1}].$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Units & Measurements", "topic": "Significant Figures & Errors",
+    "year": 2018, "difficulty": "medium", "type": "single",
+    "question": "If the percentage errors in measuring mass $m$ and speed $v$ are $2\\%$ and $3\\%$, the error in kinetic energy $\\tfrac12 mv^2$ is:",
+    "options": ["$8\\%$", "$5\\%$", "$2\\%$", "$11\\%$"],
+    "correct": "A",
+    "solution": "$\\dfrac{\\Delta KE}{KE}=\\dfrac{\\Delta m}{m}+2\\dfrac{\\Delta v}{v}=2\\%+2(3\\%)=8\\%.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Kinematics", "topic": "Projectile Motion",
+    "year": 2016, "difficulty": "easy", "type": "single",
+    "question": "A projectile is fired with speed $u$ at $45^\\circ$ to the horizontal. The ratio of its maximum height to its horizontal range is:",
+    "options": ["$1:4$", "$1:2$", "$1:1$", "$2:1$"],
+    "correct": "A",
+    "solution": "$H=\\dfrac{u^2\\sin^2\\theta}{2g},\\ R=\\dfrac{u^2\\sin 2\\theta}{g}$. At $45^\\circ$, $H=\\dfrac{u^2}{4g}$, $R=\\dfrac{u^2}{g}$, so $H:R=1:4.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Kinematics", "topic": "Equations of Motion",
+    "year": 2022, "difficulty": "medium", "type": "single",
+    "question": "A body starting from rest moves with constant acceleration. The ratio of the distance covered in the $3^{rd}$ second to the total distance covered in $3$ seconds is:",
+    "options": ["$5:9$", "$1:3$", "$3:5$", "$5:6$"],
+    "correct": "A",
+    "solution": "Distance in $n^{th}$ second $=\\dfrac{a}{2}(2n-1)$; $3$rd second $=\\dfrac{5a}{2}$. Total in $3$ s $=\\dfrac12 a(3)^2=\\dfrac{9a}{2}$. Ratio $=5:9.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Laws of Motion", "topic": "Friction",
+    "year": 2019, "difficulty": "easy", "type": "single",
+    "question": "A block of mass $2\\,\\text{kg}$ rests on a rough surface with $\\mu_s=0.5$. The minimum horizontal force to just move it is ($g=10\\,\\text{m/s}^2$):",
+    "options": ["$10\\,\\text{N}$", "$5\\,\\text{N}$", "$20\\,\\text{N}$", "$15\\,\\text{N}$"],
+    "correct": "A",
+    "solution": "$F=\\mu_s mg=0.5\\times2\\times10=10\\,\\text{N}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Laws of Motion", "topic": "Connected Bodies",
+    "year": 2020, "difficulty": "medium", "type": "single",
+    "question": "Two blocks of masses $3\\,\\text{kg}$ and $2\\,\\text{kg}$ connected by a string are pulled on a frictionless surface by a force $10\\,\\text{N}$ applied to the $3\\,\\text{kg}$ block. The tension in the string is:",
+    "options": ["$4\\,\\text{N}$", "$6\\,\\text{N}$", "$10\\,\\text{N}$", "$2\\,\\text{N}$"],
+    "correct": "A",
+    "solution": "$a=\\dfrac{10}{5}=2\\,\\text{m/s}^2$. Tension pulls the $2\\,\\text{kg}$ block: $T=2\\times2=4\\,\\text{N}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Work, Energy & Power", "topic": "Work-Energy Theorem",
+    "year": 2017, "difficulty": "easy", "type": "numerical",
+    "question": "A $1\\,\\text{kg}$ block moving at $4\\,\\text{m/s}$ is brought to rest. The magnitude of work done by the stopping force is ___ J.",
+    "answer": 8, "tol": 0,
+    "solution": "$W=\\Delta KE=0-\\tfrac12 mv^2=-\\tfrac12(1)(16)=-8\\,\\text{J}$; magnitude $8\\,\\text{J}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Work, Energy & Power", "topic": "Power",
+    "year": 2023, "difficulty": "medium", "type": "single",
+    "question": "A pump lifts $200\\,\\text{kg}$ of water per minute to a height of $30\\,\\text{m}$. The minimum power required is ($g=10\\,\\text{m/s}^2$):",
+    "options": ["$1000\\,\\text{W}$", "$600\\,\\text{W}$", "$1200\\,\\text{W}$", "$2000\\,\\text{W}$"],
+    "correct": "A",
+    "solution": "$P=\\dfrac{mgh}{t}=\\dfrac{200\\times10\\times30}{60}=1000\\,\\text{W}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Rotational Motion", "topic": "Moment of Inertia",
+    "year": 2018, "difficulty": "medium", "type": "single",
+    "question": "The moment of inertia of a uniform solid sphere of mass $M$ and radius $R$ about a diameter is:",
+    "options": ["$\\frac{2}{5}MR^2$", "$\\frac{2}{3}MR^2$", "$\\frac{1}{2}MR^2$", "$\\frac{7}{5}MR^2$"],
+    "correct": "A",
+    "solution": "For a uniform solid sphere about a diameter, $I=\\dfrac{2}{5}MR^2$ (standard result)."
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Rotational Motion", "topic": "Conservation of Angular Momentum",
+    "year": 2021, "difficulty": "hard", "type": "single",
+    "question": "A disc rotating at angular speed $\\omega$ has another identical disc gently placed on it coaxially. The common angular speed becomes:",
+    "options": ["$\\omega/2$", "$\\omega$", "$2\\omega$", "$\\omega/4$"],
+    "correct": "A",
+    "solution": "Angular momentum conserved: $I\\omega=(2I)\\omega'\\Rightarrow\\omega'=\\omega/2.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Gravitation", "topic": "Escape Velocity",
+    "year": 2015, "difficulty": "medium", "type": "single",
+    "question": "The escape velocity from a planet is $v_e$. If its radius is halved keeping density constant, the new escape velocity is:",
+    "options": ["$v_e/2$", "$v_e$", "$2v_e$", "$\\sqrt2\\,v_e$"],
+    "correct": "A",
+    "solution": "$v_e=\\sqrt{\\dfrac{8\\pi G\\rho}{3}}\\,R\\propto R$ at constant $\\rho$. Halving $R$ halves $v_e.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Gravitation", "topic": "Variation of g",
+    "year": 2022, "difficulty": "easy", "type": "single",
+    "question": "The acceleration due to gravity at a height equal to the Earth's radius $R$ above the surface is:",
+    "options": ["$g/4$", "$g/2$", "$g$", "$g/9$"],
+    "correct": "A",
+    "solution": "$g'=\\dfrac{g}{(1+h/R)^2}=\\dfrac{g}{(1+1)^2}=\\dfrac{g}{4}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Properties of Matter", "topic": "Surface Tension",
+    "year": 2019, "difficulty": "medium", "type": "single",
+    "question": "The excess pressure inside a soap bubble of radius $r$ and surface tension $T$ is:",
+    "options": ["$\\frac{4T}{r}$", "$\\frac{2T}{r}$", "$\\frac{T}{r}$", "$\\frac{8T}{r}$"],
+    "correct": "A",
+    "solution": "A soap bubble has two surfaces: excess pressure $=\\dfrac{2\\times2T}{r}=\\dfrac{4T}{r}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Properties of Matter", "topic": "Fluid Mechanics",
+    "year": 2020, "difficulty": "easy", "type": "single",
+    "question": "Water flows through a horizontal pipe whose radius narrows to half. The speed of water in the narrow part compared to the wide part becomes:",
+    "options": ["$4\\times$", "$2\\times$", "$\\tfrac12\\times$", "$\\tfrac14\\times$"],
+    "correct": "A",
+    "solution": "Continuity: $A_1v_1=A_2v_2$. Area $\\propto r^2$, so halving $r$ quarters the area and speed becomes $4\\times.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Thermodynamics", "topic": "First Law",
+    "year": 2017, "difficulty": "medium", "type": "single",
+    "question": "In an isothermal process for an ideal gas, the change in internal energy is:",
+    "options": ["Zero", "Positive", "Negative", "Equal to work done"],
+    "correct": "A",
+    "solution": "Internal energy of an ideal gas depends only on $T$. Isothermal $\\Rightarrow \\Delta T=0\\Rightarrow\\Delta U=0.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Thermodynamics", "topic": "Carnot Engine",
+    "year": 2023, "difficulty": "medium", "type": "numerical",
+    "question": "A Carnot engine operates between $500\\,\\text{K}$ and $300\\,\\text{K}$. Its efficiency is ___ %.",
+    "answer": 40, "tol": 0,
+    "solution": "$\\eta=1-\\dfrac{T_C}{T_H}=1-\\dfrac{300}{500}=0.4=40\\%.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Kinetic Theory of Gases", "topic": "RMS Speed",
+    "year": 2018, "difficulty": "medium", "type": "single",
+    "question": "The rms speed of gas molecules at temperature $T$ is $v$. At temperature $4T$ it becomes:",
+    "options": ["$2v$", "$4v$", "$\\sqrt2\\,v$", "$v$"],
+    "correct": "A",
+    "solution": "$v_{rms}=\\sqrt{\\dfrac{3RT}{M}}\\propto\\sqrt T$. Quadrupling $T$ doubles $v_{rms}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Kinetic Theory of Gases", "topic": "Specific Heats",
+    "year": 2021, "difficulty": "easy", "type": "single",
+    "question": "The ratio $\\gamma=C_P/C_V$ for a diatomic ideal gas (no vibration) is:",
+    "options": ["$7/5$", "$5/3$", "$4/3$", "$3/2$"],
+    "correct": "A",
+    "solution": "Diatomic: $C_V=\\tfrac52 R,\\ C_P=\\tfrac72 R$, so $\\gamma=\\dfrac{7}{5}=1.4.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Oscillations & SHM", "topic": "Simple Pendulum",
+    "year": 2016, "difficulty": "medium", "type": "single",
+    "question": "The time period of a simple pendulum of length $1\\,\\text{m}$ where $g=\\pi^2\\,\\text{m/s}^2$ is:",
+    "options": ["$2\\,\\text{s}$", "$1\\,\\text{s}$", "$0.5\\,\\text{s}$", "$4\\,\\text{s}$"],
+    "correct": "A",
+    "solution": "$T=2\\pi\\sqrt{L/g}=2\\pi\\sqrt{1/\\pi^2}=2\\,\\text{s}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Oscillations & SHM", "topic": "Energy in SHM",
+    "year": 2022, "difficulty": "medium", "type": "single",
+    "question": "In SHM, at what displacement (as a fraction of amplitude $A$) is the kinetic energy equal to the potential energy?",
+    "options": ["$A/\\sqrt2$", "$A/2$", "$A$", "$A\\sqrt2$"],
+    "correct": "A",
+    "solution": "$KE=PE\\Rightarrow \\tfrac12 k(A^2-x^2)=\\tfrac12 kx^2\\Rightarrow x=A/\\sqrt2.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Waves & Sound", "topic": "Beats",
+    "year": 2019, "difficulty": "easy", "type": "numerical",
+    "question": "Two tuning forks of frequencies $256\\,\\text{Hz}$ and $260\\,\\text{Hz}$ are sounded together. The number of beats per second is ___ .",
+    "answer": 4, "tol": 0,
+    "solution": "Beat frequency $=|f_1-f_2|=|260-256|=4\\,\\text{Hz}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Waves & Sound", "topic": "Organ Pipes",
+    "year": 2020, "difficulty": "medium", "type": "single",
+    "question": "The fundamental frequency of a closed organ pipe of length $L$ is $f$. A closed pipe of length $2L$ has fundamental frequency:",
+    "options": ["$f/2$", "$2f$", "$f$", "$f/4$"],
+    "correct": "A",
+    "solution": "$f=\\dfrac{v}{4L}\\propto\\dfrac{1}{L}$. Doubling $L$ halves $f.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Electrostatics", "topic": "Coulomb's Law",
+    "year": 2016, "difficulty": "easy", "type": "single",
+    "question": "Two point charges experience force $F$ at separation $r$. If $r$ is doubled, the new force is:",
+    "options": ["$F/4$", "$F/2$", "$2F$", "$4F$"],
+    "correct": "A",
+    "solution": "$F\\propto 1/r^2$; doubling $r$ gives $F/4.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Electrostatics", "topic": "Capacitance",
+    "year": 2021, "difficulty": "medium", "type": "single",
+    "question": "A parallel-plate capacitor has capacitance $C$. A dielectric slab of constant $K=4$ fully fills the gap. The new capacitance is:",
+    "options": ["$4C$", "$C/4$", "$2C$", "$C$"],
+    "correct": "A",
+    "solution": "$C'=KC=4C.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Current Electricity", "topic": "Combination of Resistors",
+    "year": 2018, "difficulty": "easy", "type": "single",
+    "question": "Three resistors of $2\\,\\Omega,\\ 3\\,\\Omega,\\ 6\\,\\Omega$ are connected in parallel. The equivalent resistance is:",
+    "options": ["$1\\,\\Omega$", "$11\\,\\Omega$", "$2\\,\\Omega$", "$0.5\\,\\Omega$"],
+    "correct": "A",
+    "solution": "$\\dfrac1R=\\dfrac12+\\dfrac13+\\dfrac16=1\\Rightarrow R=1\\,\\Omega.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Current Electricity", "topic": "Electric Power",
+    "year": 2022, "difficulty": "medium", "type": "single",
+    "question": "A bulb rated $100\\,\\text{W},\\ 200\\,\\text{V}$ is operated at $100\\,\\text{V}$. The power consumed is:",
+    "options": ["$25\\,\\text{W}$", "$50\\,\\text{W}$", "$100\\,\\text{W}$", "$200\\,\\text{W}$"],
+    "correct": "A",
+    "solution": "$R=\\dfrac{V^2}{P}=\\dfrac{200^2}{100}=400\\,\\Omega$. At $100\\,\\text V$: $P'=\\dfrac{100^2}{400}=25\\,\\text W.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Moving Charges & Magnetism", "topic": "Lorentz Force",
+    "year": 2019, "difficulty": "medium", "type": "single",
+    "question": "A charged particle moves parallel to a uniform magnetic field. The magnetic force on it is:",
+    "options": ["Zero", "Maximum", "$qvB$", "Perpendicular to velocity"],
+    "correct": "A",
+    "solution": "$F=qvB\\sin\\theta$; $\\theta=0\\Rightarrow F=0.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Moving Charges & Magnetism", "topic": "Field of a Straight Wire",
+    "year": 2023, "difficulty": "easy", "type": "single",
+    "question": "The magnetic field at distance $r$ from a long straight wire carrying current $I$ is proportional to:",
+    "options": ["$I/r$", "$I/r^2$", "$Ir$", "$I^2/r$"],
+    "correct": "A",
+    "solution": "$B=\\dfrac{\\mu_0 I}{2\\pi r}\\propto \\dfrac{I}{r}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Electromagnetic Induction & AC", "topic": "Faraday's Law",
+    "year": 2017, "difficulty": "medium", "type": "single",
+    "question": "The magnetic flux through a coil changes from $2\\,\\text{Wb}$ to $10\\,\\text{Wb}$ in $4\\,\\text{s}$. The average induced EMF is:",
+    "options": ["$2\\,\\text{V}$", "$8\\,\\text{V}$", "$0.5\\,\\text{V}$", "$4\\,\\text{V}$"],
+    "correct": "A",
+    "solution": "$\\varepsilon=\\dfrac{\\Delta\\Phi}{\\Delta t}=\\dfrac{10-2}{4}=2\\,\\text{V}$ (magnitude)."
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Electromagnetic Induction & AC", "topic": "LCR Resonance",
+    "year": 2021, "difficulty": "hard", "type": "single",
+    "question": "In a series LCR circuit at resonance, the impedance equals:",
+    "options": ["$R$", "$\\omega L$", "$1/\\omega C$", "Zero"],
+    "correct": "A",
+    "solution": "At resonance $X_L=X_C$, so $Z=\\sqrt{R^2+(X_L-X_C)^2}=R.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Electromagnetic Waves", "topic": "Properties of EM Waves",
+    "year": 2020, "difficulty": "easy", "type": "single",
+    "question": "In vacuum, electromagnetic waves of all frequencies travel with:",
+    "options": ["The same speed $c$", "Speed proportional to frequency", "Speed proportional to wavelength", "Different speeds"],
+    "correct": "A",
+    "solution": "In vacuum all EM waves travel at $c=3\\times10^8\\,\\text{m/s}$, independent of frequency."
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Electromagnetic Waves", "topic": "E and B Fields",
+    "year": 2022, "difficulty": "medium", "type": "single",
+    "question": "In an EM wave the ratio of the amplitudes of electric to magnetic field $E_0/B_0$ equals:",
+    "options": ["$c$", "$1/c$", "$c^2$", "$\\mu_0\\varepsilon_0$"],
+    "correct": "A",
+    "solution": "For an EM wave in vacuum, $E_0/B_0=c.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Ray Optics", "topic": "Lens Formula",
+    "year": 2018, "difficulty": "easy", "type": "single",
+    "question": "An object is placed $20\\,\\text{cm}$ in front of a convex lens of focal length $10\\,\\text{cm}$. The image distance is:",
+    "options": ["$20\\,\\text{cm}$", "$10\\,\\text{cm}$", "$-20\\,\\text{cm}$", "$5\\,\\text{cm}$"],
+    "correct": "A",
+    "solution": "$\\dfrac1v-\\dfrac1u=\\dfrac1f$ with $u=-20,\\ f=10$: $\\dfrac1v=\\dfrac1{10}-\\dfrac1{20}=\\dfrac1{20}\\Rightarrow v=20\\,\\text{cm}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Ray Optics", "topic": "Total Internal Reflection",
+    "year": 2023, "difficulty": "medium", "type": "single",
+    "question": "The critical angle for a medium of refractive index $\\sqrt2$ (with respect to air) is:",
+    "options": ["$45^\\circ$", "$30^\\circ$", "$60^\\circ$", "$90^\\circ$"],
+    "correct": "A",
+    "solution": "$\\sin\\theta_c=\\dfrac1n=\\dfrac1{\\sqrt2}\\Rightarrow\\theta_c=45^\\circ.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Wave Optics", "topic": "Young's Double Slit",
+    "year": 2019, "difficulty": "medium", "type": "single",
+    "question": "In a double-slit experiment, if the slit separation is doubled, the fringe width:",
+    "options": ["Halves", "Doubles", "Stays the same", "Quadruples"],
+    "correct": "A",
+    "solution": "$\\beta=\\dfrac{\\lambda D}{d}\\propto\\dfrac1d$; doubling $d$ halves $\\beta.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Wave Optics", "topic": "Polarisation",
+    "year": 2021, "difficulty": "medium", "type": "single",
+    "question": "Unpolarised light of intensity $I_0$ passes through a polariser. The transmitted intensity is:",
+    "options": ["$I_0/2$", "$I_0$", "$I_0/4$", "Zero"],
+    "correct": "A",
+    "solution": "A polariser transmits half the intensity of unpolarised light: $I=I_0/2.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Modern Physics", "topic": "Photoelectric Effect",
+    "year": 2016, "difficulty": "medium", "type": "single",
+    "question": "The work function of a metal is $2\\,\\text{eV}$. Light of energy $5\\,\\text{eV}$ falls on it. The maximum kinetic energy of emitted electrons is:",
+    "options": ["$3\\,\\text{eV}$", "$2\\,\\text{eV}$", "$7\\,\\text{eV}$", "$5\\,\\text{eV}$"],
+    "correct": "A",
+    "solution": "$K_{max}=E-\\phi=5-2=3\\,\\text{eV}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Modern Physics", "topic": "Bohr Model",
+    "year": 2022, "difficulty": "medium", "type": "single",
+    "question": "The energy of the electron in the ground state of hydrogen is $-13.6\\,\\text{eV}$. Its energy in the $n=2$ state is:",
+    "options": ["$-3.4\\,\\text{eV}$", "$-6.8\\,\\text{eV}$", "$-13.6\\,\\text{eV}$", "$-1.51\\,\\text{eV}$"],
+    "correct": "A",
+    "solution": "$E_n=\\dfrac{-13.6}{n^2}=\\dfrac{-13.6}{4}=-3.4\\,\\text{eV}.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Semiconductor Electronics", "topic": "Logic Gates",
+    "year": 2020, "difficulty": "easy", "type": "single",
+    "question": "The output of a NAND gate with both inputs $1$ is:",
+    "options": ["$0$", "$1$", "Undefined", "Depends on supply"],
+    "correct": "A",
+    "solution": "NAND $=\\overline{A\\cdot B}$; $\\overline{1\\cdot1}=\\overline1=0.$"
+  },
+  {
+    "exam": "JEE Main", "subject": "physics", "chapter": "Semiconductor Electronics", "topic": "p-n Junction",
+    "year": 2023, "difficulty": "medium", "type": "single",
+    "question": "In a p-n junction diode under forward bias, the width of the depletion region:",
+    "options": ["Decreases", "Increases", "Stays constant", "Becomes infinite"],
+    "correct": "A",
+    "solution": "Forward bias lowers the barrier and narrows the depletion region."
+  }
+]
